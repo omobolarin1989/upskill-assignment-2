@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: url(../images/young-african-american-woman-using-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: azure;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: black;
+    padding: 1% 0;
+        
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.contact-header h1{
+    text-align: center;
+    font-weight: bolder;
+    margin: 10%;
+    
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+
+}
